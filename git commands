@@ -6,6 +6,11 @@ did it work? if no:
 2. git pull
 3. git stash pop
 4. fix merge conflicts
+
+if no new files:
+ git commit -a -m "message"
+ instead of 5 and 6
+
 5. git add .
 6. git commit -m "message"
 7. git push
