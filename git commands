@@ -1,0 +1,12 @@
+How to use git (easy version)
+
+1. git pull
+did it work? if no:
+1. git stash
+2. git pull
+3. git stash pop
+4. fix merge conflicts
+5. git add .
+6. git commit -m "message"
+7. git push
+
