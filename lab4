@@ -9,3 +9,18 @@ for c1 in [0..4]:
                       continue
                  print poly
 print "Finished."
+
+
+Alternative code:
+
+import itertools
+
+R.<x> = GF(5)['x']
+print("The potential primitive polynomials could be:")
+for c1, c2, c3, c4 in itertools.product([0,1,2,3,4], [0,1,2,3,4], [0,1,2,3,4], [0,1,2,3,4]):
+    poly = x^4 + c1*x^(3)+ c2*x^(2)+ c3 * x + c4;
+    if poly.is_primitive()==False:
+        continue
+    print poly
+print "Finished."
+
