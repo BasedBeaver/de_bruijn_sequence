@@ -1,0 +1,11 @@
+R.<x> = GF(5)['x']
+print("The potential primitive polynomials could be:")
+for c1 in [0..4]:
+    for c2 in [0..4]:
+        for c3 in [0..4]:
+            for c4 in [0..4]:
+                 poly = x^4 + c1*x^(3)+ c2*x^(2)+ c3 * x + c4;
+                 if poly.is_primitive()==False:
+                      continue
+                 print poly
+print "Finished."
