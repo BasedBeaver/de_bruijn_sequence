@@ -6,29 +6,29 @@ a = S.gen()
 
 for i in range(1,100000):
     if a ^ i == 1:
-        print ("The order for a is:"+ str(i))
+        print ("The order for a is: "+ str(i))
         break
 
 for i in range(1,100000):
     if a ^(2*i) == 1:
-        print ("The order for" + str(a ^ 2)+ "is:"+ str(i))
+        print ("The order for" + str(a ^ 2)+ " is: "+ str(i))
         break
 
 for i in range(1,100000):
     if a ^(3*i) == 1:
-        print ("The order for" + str(a ^ 3)+ "is:"+ str(i))
+        print ("The order for" + str(a ^ 3)+ " is: "+ str(i))
         break
 for i in range(1,1000000):
     if (a ^3 + a )^i == 1:
-        print ("The order for" + str(a ^3 + a)+ "is:"+ str(i))
+        print ("The order for" + str(a ^3 + a)+ " is: "+ str(i))
         break
 
 
 
 #Result:
-#The order for a is:189
-#The order fora^2is:189
-#The order fora^3is:63
-#The order fora^3 + ais:262143
+#The order for a is: 189
+#The order fora^2 is: 189
+#The order fora^3 is: 63
+#The order fora^3 + a is: 262143
 #
 
