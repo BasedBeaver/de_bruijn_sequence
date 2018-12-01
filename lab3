@@ -1,0 +1,25 @@
+R = PolynomialRing(GF(2),'x')
+x = R.gen()
+poly = x^23 + x^6+ 1
+
+S = R.quotient(poly, 'a')
+a = S.gen()
+q = 2
+L = 23
+
+flag_prime = poly.is_primitive()
+flag_irreducible = poly.is_irreducible()
+
+if flag_prime:
+    print("Apart from circle 1(1), there are still cycle sets:")
+    print('1(%d)' % (q ^ L -1))
+elif flag_irreducible:
+    print("Apart from circle 1(1), there are still cycle sets:")
+    for i in range(1,100000):
+        if a ^ i == 1:
+            print('%d(%d)' % ((q ^ L -1)/i, i))
+            break
+else:
+    print("The polynomial is reducible, the factors are:")
+    factors =  factor(poly)
+    print(factors)
