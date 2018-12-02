@@ -1,4 +1,9 @@
 
+
+"""
+https://link.springer.com/referenceworkentry/10.1007%2F978-1-4419-5906-5_361
+"""
+
 def xor_func(a, b):
     x = 0
     if not a != (not b):
