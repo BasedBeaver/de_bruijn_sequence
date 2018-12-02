@@ -41,11 +41,11 @@ res = [0, 1, 0]
 res2 = [2, 3, 4]
 print(res2[-1], res2[-2], res2[-3])
 print(res)
-while len(res) < 12:
+while len(res) < 24:
     s1, s2, s3 = res[-1], res[-2], res[-3]
     print(s1, s2, s3)
     f = f_func(s1, s2, s3)
     res.append(f)
-    print(res[-1])
+    print(res)
     print("-----------")
 print(res)
