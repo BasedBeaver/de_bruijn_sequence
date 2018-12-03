@@ -78,8 +78,6 @@ if (res[1] == 0 and res[2] == 0 and res[-1] == 0) or\
     res_NL.append(0)
 print(res)
 print(res_NL)
-out_string = str(res)
-out_string = ''.join(c for c in out_string if c not in '[],')
 print(len(res), len(res_NL))
 
 
@@ -87,8 +85,7 @@ print(len(res), len(res_NL))
 De Bruijn set 10
 """
 
-
-
-
+# out_string = str(res)
+# out_string = ''.join(c for c in out_string if c not in '[],')
 # with open("F5_out.txt", 'w') as file:
 #     file.write(out_string)
