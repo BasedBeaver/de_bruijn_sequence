@@ -1,14 +1,3 @@
-def repeat_to_length(s, wanted):
-    return (s * (wanted//len(s) + 1))[:wanted]
-
-def add_func(a, b):
-    return (a + b) % 5
-
-
-def mul_func(a, b):
-    return (a * b) % 5
-
-
 def xor_func(a, b):
     if not a != (not b):
         x = 1
@@ -50,9 +39,6 @@ while len(res_f2) < 10000:
 if (res_f2[0] == 0 and res_f2[1] == 0 and res_f2[-1] == 0) or\
         (res_f2[0] == 0 and res_f2[-2] == 0 and res_f2[-1] == 0):
     res_NL_f2.append(0)
-print(res_f2)
-print(res_NL_f2)
-print(len(res_f2), len(res_NL_f2))
 
 
 """
@@ -72,13 +58,10 @@ while len(res_f5) < 10000:
 if (res_f5[0] == 0 and res_f5[1] == 0 and res_f5[-1] == 0) or\
         (res_f5[0] == 0 and res_f5[-2] == 0 and res_f5[-1] == 0):
     res_NL_f5.append(0)
-print(res_f5)
-print(res_NL_f5)
-print(len(res_f5), len(res_NL_f5))
 
 
 """
-De Bruijn set 10
+De Bruijn set 10 solver
 """
 res_NL = []
 
@@ -87,8 +70,6 @@ for i in range(0, len(res_NL_f5)):
         res_NL.append(res_NL_f5[i])
     elif res_NL_f2[i] == 0:
         res_NL.append((9 - res_NL_f5[i]))
-print(res_NL)
-print(len(res_NL))
 
 
 out_string = str(res_NL)
