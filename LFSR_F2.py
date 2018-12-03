@@ -45,3 +45,5 @@ if (res[1] == 0 and res[2] == 0 and res[-1] == 0) or\
     res_NL.append(0)
 print(res)
 print(res_NL)
+print(len(res), len(res_NL))
+
