@@ -1,3 +1,4 @@
+# Great link: https://crypto.stackexchange.com/questions/15447/convert-m-sequence-into-a-de-bruijn-sequence/15451
 
 def xor_func(a, b):
     x = 0
