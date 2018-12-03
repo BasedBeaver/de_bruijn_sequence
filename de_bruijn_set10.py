@@ -39,7 +39,7 @@ F2 code
 
 res_f2 = [1, 1, 1, 1]
 res_NL_f2 = [1, 1, 1, 1]
-while len(res_f2) < 10003:
+while len(res_f2) < 10000:
     s1, s2 = res_f2[-4], res_f2[-3]
     f = f2_func(s1, s2)
     res_f2.append(f)
@@ -61,15 +61,13 @@ F5 code
 
 res_f5 = [2, 3, 4, 1]
 res_NL_f5 = [2, 3, 4, 1]
-added = False
-while len(res_f5) < 10003:
+while len(res_f5) < 10000:
     s1, s2, s3 = res_f5[-4], res_f5[-2], res_f5[-1]
     f = f5_func(s1, s2, s3)
     res_f5.append(f)
-    c1, c2, c3 = res_f5[-4], res_f5[-3], res_f5[-2]
-    if c1 == 0 and c2 == 0 and c3 == 0 and not added:
+    c1, c2, c3, c4 = res_f5[-4], res_f5[-3], res_f5[-2], res_f5[-1]
+    if c1 == 0 and c2 == 0 and c3 == 0 and c4 == 1:
         res_NL_f5.append(0)
-        added = True
     res_NL_f5.append(f)
 if (res_f5[0] == 0 and res_f5[1] == 0 and res_f5[-1] == 0) or\
         (res_f5[0] == 0 and res_f5[-2] == 0 and res_f5[-1] == 0):
