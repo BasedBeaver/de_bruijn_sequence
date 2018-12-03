@@ -29,8 +29,8 @@ print("########################")
 
 
 
-res = [1, 0, 1, 1]
-res_NL = [1, 0, 1, 1]
+res = [0, 1, 0, 0]
+res_NL = [0, 1, 0, 0]
 while len(res) < 18:
     s1, s2 = res[-4], res[-3]
     f = f_func(s1, s2)
@@ -40,5 +40,8 @@ while len(res) < 18:
         res_NL.append(0)
     res_NL.append(f)
     print("-----------")
+if (res[1] == 0 and res[2] == 0 and res[-1] == 0) or\
+        (res[1] == 0 and res[-2] == 0 and res[-1] == 0):
+    res_NL.append(0)
 print(res)
 print(res_NL)
