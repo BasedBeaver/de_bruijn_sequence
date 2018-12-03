@@ -1,5 +1,7 @@
 # Great link: https://crypto.stackexchange.com/questions/15447/convert-m-sequence-into-a-de-bruijn-sequence/15451
 
+# Another good possible link: https://www.usna.edu/Users/math/wdj/_files/documents/brock/brock-honorsthesis/index.html
+
 def xor_func(a, b):
     x = 0
     if not a != (not b):
