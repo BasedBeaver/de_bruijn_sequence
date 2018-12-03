@@ -31,7 +31,7 @@ print("########################")
 
 res = [0, 1, 0, 0]
 res_NL = [0, 1, 0, 0]
-while len(res) < 18:
+while len(res) < 16:
     s1, s2 = res[-4], res[-3]
     f = f_func(s1, s2)
     res.append(f)
