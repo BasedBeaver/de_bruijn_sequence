@@ -49,9 +49,9 @@
         <option value="$PROJECT_DIR$/NLFSR_test2.py" />
         <option value="$PROJECT_DIR$/NLFSR_test.py" />
         <option value="$PROJECT_DIR$/LFSR_n4.py" />
-        <option value="$PROJECT_DIR$/LFSR_F2.py" />
         <option value="$PROJECT_DIR$/NLFSR_F5.py" />
         <option value="$PROJECT_DIR$/de_bruijn_set10.py" />
+        <option value="$PROJECT_DIR$/LFSR_F2.py" />
       </list>
     </option>
   </component>
@@ -94,7 +94,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.de_bruijn_set10">
+  <component name="RunManager" selected="Python.LFSR_n4">
     <configuration name="LFSR_n4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="edin01-project-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,9 +202,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LFSR_n4" />
         <item itemvalue="Python.de_bruijn_set10" />
         <item itemvalue="Python.NLFSR_F5" />
-        <item itemvalue="Python.LFSR_n4" />
         <item itemvalue="Python.NLFSR_test" />
         <item itemvalue="Python.NLFSR_test2" />
       </list>
@@ -232,8 +232,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.45896327" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45896327" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39848813" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -279,20 +279,6 @@
     <entry file="file://$PROJECT_DIR$/wiki_db.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/NLFSR_F5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LFSR_F2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="19" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab4_polys.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -300,6 +286,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_out.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="89" lean-forward="true" selection-start-column="89" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LFSR_F2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NLFSR_F5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="38" />
         </state>
       </provider>
     </entry>
