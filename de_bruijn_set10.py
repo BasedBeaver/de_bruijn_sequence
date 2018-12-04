@@ -25,7 +25,6 @@ def f5_func(s1, s2, s3):
 """
 F2 code
 """
-
 res_f2 = [1, 1, 0, 0]
 res_NL_f2 = [1, 1, 0, 0]
 while len(res_f2) < 10000:
@@ -44,7 +43,6 @@ if (res_f2[0] == 0 and res_f2[1] == 0 and res_f2[-1] == 0) or\
 """
 F5 code
 """
-
 res_f5 = [2, 2, 4, 1]
 res_NL_f5 = [2, 2, 4, 1]
 while len(res_f5) < 10000:
@@ -70,11 +68,9 @@ for i in range(0, len(res_NL_f5)):
         res_NL.append(res_NL_f5[i])
     elif res_NL_f2[i] == 0:
         res_NL.append((9 - res_NL_f5[i]))
-
-
+print(res_NL)
 out_string = str(res_NL)
 out_string = ''.join(c for c in out_string if c not in '[], ')
 out_string = out_string[0: 10003]
-print(len(out_string))
 with open("db_out.txt", 'w') as file:
     file.write(out_string)
